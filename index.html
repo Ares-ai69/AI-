@@ -1,0 +1,8 @@
+<h1>AI图像分类演示</h1>
+<h2>学号：{{ sid }}</h2>
+<h2>姓名：{{ name }}</h2>
+
+<form action="/predict" method="post" enctype="multipart/form-data">
+    <input type="file" name="img">
+    <button>上传并预测</button>
+</form>
